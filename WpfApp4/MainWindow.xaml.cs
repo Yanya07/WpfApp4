@@ -18,6 +18,7 @@ namespace WpfApp4
     public partial class MainWindow : Window
     {
         // Делегат для фильтрации
+
         public delegate bool FilterDelegate(EventData eventData);
 
         private List<EventData> events;  // Список данных
